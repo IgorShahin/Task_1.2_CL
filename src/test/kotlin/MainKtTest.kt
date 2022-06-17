@@ -110,7 +110,7 @@ internal class MainKtTest {
             amountPreviousTransfers = amountPreviousMM
         )
 
-        assertEquals(0, resultVK)
+        assertEquals(4337, resultVK)
 
         cardType = "UnionPay"
         val result = remittance(
